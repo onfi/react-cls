@@ -6,4 +6,5 @@ export default {
   ssr: true,
   prerender: true,
   buildDirectory: "./build",
+  basename: process.env.NODE_ENV === "production" ? "/react-cls/build/client" : "/",
 } satisfies Config;
