@@ -18,8 +18,8 @@ export default function() {
 
 
   return <div>
-    <div style={{height: "50vh", backgroundColor: "lightgray"}}>最初から枠をおさえておく</div>
-    {render && <div style={{height: "30vh", backgroundColor: "black", color: "white"}}>中</div>}
-    <div style={{height: "50vh", backgroundColor: "yellow", marginTop: render ? "0" : "30vh"}}>下</div>
+    <div style={{height: "100vh", backgroundColor: "lightgray"}}>ファーストビューにレイアウトシフトさせない</div>
+    {render && (<div style={{height: "30vh", backgroundColor: "black", color: "white"}}>中</div>)}
+    <div style={{height: "50vh", backgroundColor: "yellow"}}>下</div>
   </div>;
 }

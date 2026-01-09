@@ -19,7 +19,7 @@ export default function() {
 
   return <div>
     <div style={{height: "100vh", backgroundColor: "lightgray"}}>ファーストビューにレイアウトシフトさせない</div>
-    {render && (<div style={{height: "30vh", backgroundColor: "black", color: "white"}}>中</div>)}
+    {render && (<div style={{height: "5px", backgroundColor: "black", color: "white"}}>中</div>)}
     <div style={{height: "50vh", backgroundColor: "yellow"}}>下</div>
   </div>;
 }
