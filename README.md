@@ -20,13 +20,13 @@ https://onfi.github.io/react-cls/build/client/1/
 ソース
 https://github.com/onfi/react-cls/blob/main/app/routes/1.tsx
 
-Divが3つあり、真ん中のDivがsetTimeoutで1秒後に表示する
+Divが3つあり、真ん中のDivがsetTimeoutで1秒後に表示します
 
 ---
 
 ## 手元で動かしてみたいとき
 
-このリポジトリをcloneして、実行していみれます
+このリポジトリをcloneして、実行してみられます
 
 ```
 git clone https://github.com/onfi/react-cls.git
@@ -38,7 +38,7 @@ npm run dev
 
 ---
 
-## 計ってみる
+## 測ってみる
 
 Chromeのデベロッパーツールで簡単に測れます
 
@@ -51,7 +51,7 @@ ReactやVueで開発するときは、常に開きましょう
 
 ## スコアの計算
 
-画面の半分覆ってた下段エリアが0.5 * 真ん中エリアが画面の0.3分ズラした
+画面の半分覆ってた下段エリアが0.5 * 真ん中エリアが画面の0.3分だけズラした
 
 0.5 * 0.3 = **CLSスコアは0.15**
 
@@ -59,14 +59,14 @@ ReactやVueで開発するときは、常に開きましょう
 
 ---
 
-## 計ってみる2
+## 測ってみる2
 
 web.devのPageSpeed Insights
 https://pagespeed.web.dev/
 
 SEO的な観点でかなり信頼できる計測してくれます
 
-ただし開発環境では計れません
+ただし開発環境では測れません
 ChromeのデベロッパーツールLighthouseタブのAnalyze page loadを代替的に使えます
 
 ---
@@ -87,7 +87,7 @@ https://github.com/onfi/react-cls/blob/main/app/routes/2.tsx
 
 全然アウトですが、[web.devではノーカウント](https://pagespeed.web.dev/analysis/https-onfi-github-io-react-cls-build-client-3/qxc225xnph?form_factor=mobile)です
 Googleの今の基準だと、最初の5秒をカウントするルールになっているためです
-SEO的にOKでもユーザビリティ的にはNGなので、
+SEO的にOKでもユーザービリティ的にはNGです
 
 https://onfi.github.io/react-cls/build/client/3/
 https://github.com/onfi/react-cls/blob/main/app/routes/3.tsx
@@ -99,7 +99,7 @@ https://github.com/onfi/react-cls/blob/main/app/routes/3.tsx
 ### ホバー
 
 下のエリアにマウスをホバーすると表示します
-こちらもSEO的にはOKですが、ユーザビリティ的にはNGで、Performanceタブではカウントされます
+こちらもSEO的にはOKですが、ユーザービリティ的にはNGで、Performanceタブではカウントされます
 
 https://onfi.github.io/react-cls/build/client/4/
 https://github.com/onfi/react-cls/blob/main/app/routes/4.tsx
@@ -107,7 +107,7 @@ https://github.com/onfi/react-cls/blob/main/app/routes/4.tsx
 ## クリック
 
 下のエリアをクリックすると表示します
-クリックなどのユーザーの能動的なアクションの**直後**のレイアウトシフトはCLSでは**ありません***
+クリックなどのユーザーの能動的なアクションの**直後**のレイアウトシフトはCLSでは**ありません**
 
 https://onfi.github.io/react-cls/build/client/5/
 https://github.com/onfi/react-cls/blob/main/app/routes/5.tsx
@@ -167,7 +167,7 @@ https://github.com/onfi/react-cls/blob/main/app/routes/7.tsx
 https://onfi.github.io/react-cls/build/client/8/
 https://github.com/onfi/react-cls/blob/main/app/routes/8.tsx
 
-後から表示される部分が大きい要素だと、(LCP)[https://web.dev/articles/lcp?hl=ja] になるかもしれないので、そこだけ注意が必要です
+後から表示される部分が大きい要素だと、[LCP](https://web.dev/articles/lcp?hl=ja) に影響するかもしれないので、そこだけ注意が必要です
 
 ---
 
@@ -191,13 +191,13 @@ SEO的にはファーストビューのみチェックされます
 https://onfi.github.io/react-cls/build/client/10/
 https://github.com/onfi/react-cls/blob/main/app/routes/10.tsx
 
-これもユーザビリティ的には良くない場合も多く、注意しましょう
+これもユーザービリティ的には良くない場合も多く、注意しましょう
 
 ---
 
 ## まとめ
 
 - CLSは画面がガタついているかどうかの指標
-- SEOにもユーザビリティにも有効、CLSが高いと使いづらい
+- SEOにもユーザービリティにも有効、CLSが高いと使いづらい
 - react等でAPIを利用するとき、useEffectしたときに起きがち
 - なるべくガタガタしないようにコーディングする

@@ -195,7 +195,7 @@ const resources = [
     )
   }
 ];
-function meta$c({}) {
+function meta$d({}) {
   return [{
     title: "New React Router App"
   }, {
@@ -209,9 +209,9 @@ const home = UNSAFE_withComponentProps(function Home() {
 const route1 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
   default: home,
-  meta: meta$c
+  meta: meta$d
 }, Symbol.toStringTag, { value: "Module" }));
-function meta$b({}) {
+function meta$c({}) {
   return [];
 }
 const _1 = UNSAFE_withComponentProps(function() {
@@ -248,9 +248,9 @@ const _1 = UNSAFE_withComponentProps(function() {
 const route2 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
   default: _1,
-  meta: meta$b
+  meta: meta$c
 }, Symbol.toStringTag, { value: "Module" }));
-function meta$a({}) {
+function meta$b({}) {
   return [];
 }
 const _2 = UNSAFE_withComponentProps(function() {
@@ -287,9 +287,9 @@ const _2 = UNSAFE_withComponentProps(function() {
 const route3 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
   default: _2,
-  meta: meta$a
+  meta: meta$b
 }, Symbol.toStringTag, { value: "Module" }));
-function meta$9({}) {
+function meta$a({}) {
   return [];
 }
 const _3 = UNSAFE_withComponentProps(function() {
@@ -326,9 +326,9 @@ const _3 = UNSAFE_withComponentProps(function() {
 const route4 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
   default: _3,
-  meta: meta$9
+  meta: meta$a
 }, Symbol.toStringTag, { value: "Module" }));
-function meta$8({}) {
+function meta$9({}) {
   return [];
 }
 const _4 = UNSAFE_withComponentProps(function() {
@@ -360,9 +360,9 @@ const _4 = UNSAFE_withComponentProps(function() {
 const route5 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
   default: _4,
-  meta: meta$8
+  meta: meta$9
 }, Symbol.toStringTag, { value: "Module" }));
-function meta$7({}) {
+function meta$8({}) {
   return [];
 }
 const _5 = UNSAFE_withComponentProps(function() {
@@ -394,9 +394,9 @@ const _5 = UNSAFE_withComponentProps(function() {
 const route6 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
   default: _5,
-  meta: meta$7
+  meta: meta$8
 }, Symbol.toStringTag, { value: "Module" }));
-function meta$6({}) {
+function meta$7({}) {
   return [];
 }
 const _52 = UNSAFE_withComponentProps(function() {
@@ -433,9 +433,9 @@ const _52 = UNSAFE_withComponentProps(function() {
 const route7 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
   default: _52,
-  meta: meta$6
+  meta: meta$7
 }, Symbol.toStringTag, { value: "Module" }));
-function meta$5({}) {
+function meta$6({}) {
   return [];
 }
 const _6 = UNSAFE_withComponentProps(function() {
@@ -469,9 +469,9 @@ const _6 = UNSAFE_withComponentProps(function() {
 const route8 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
   default: _6,
-  meta: meta$5
+  meta: meta$6
 }, Symbol.toStringTag, { value: "Module" }));
-function meta$4({}) {
+function meta$5({}) {
   return [{
     title: "FOUT デモ"
   }];
@@ -513,9 +513,9 @@ const _62 = UNSAFE_withComponentProps(function() {
 const route9 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
   default: _62,
-  meta: meta$4
+  meta: meta$5
 }, Symbol.toStringTag, { value: "Module" }));
-function meta$3({}) {
+function meta$4({}) {
   return [];
 }
 const _7 = UNSAFE_withComponentProps(function() {
@@ -553,9 +553,9 @@ const _7 = UNSAFE_withComponentProps(function() {
 const route10 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
   default: _7,
-  meta: meta$3
+  meta: meta$4
 }, Symbol.toStringTag, { value: "Module" }));
-function meta$2({}) {
+function meta$3({}) {
   return [];
 }
 const _8 = UNSAFE_withComponentProps(function() {
@@ -592,9 +592,9 @@ const _8 = UNSAFE_withComponentProps(function() {
 const route11 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
   default: _8,
-  meta: meta$2
+  meta: meta$3
 }, Symbol.toStringTag, { value: "Module" }));
-function meta$1({}) {
+function meta$2({}) {
   return [];
 }
 const _9 = UNSAFE_withComponentProps(function() {
@@ -631,9 +631,9 @@ const _9 = UNSAFE_withComponentProps(function() {
 const route12 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
   default: _9,
-  meta: meta$1
+  meta: meta$2
 }, Symbol.toStringTag, { value: "Module" }));
-function meta({}) {
+function meta$1({}) {
   return [];
 }
 const _10 = UNSAFE_withComponentProps(function() {
@@ -670,15 +670,56 @@ const _10 = UNSAFE_withComponentProps(function() {
 const route13 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
   default: _10,
+  meta: meta$1
+}, Symbol.toStringTag, { value: "Module" }));
+function meta({}) {
+  return [];
+}
+const _11 = UNSAFE_withComponentProps(function() {
+  const [render, setRender] = useState(false);
+  return /* @__PURE__ */ jsxs("div", {
+    children: [/* @__PURE__ */ jsx("div", {
+      style: {
+        height: "50vh",
+        backgroundColor: "lightgray"
+      },
+      children: "CSSアニメーションでガクガクしてもOK"
+    }), /* @__PURE__ */ jsxs("div", {
+      style: {
+        height: "30vh",
+        backgroundColor: "black",
+        color: "white",
+        animation: "expandHeight 3s forwards"
+      },
+      children: ["中", /* @__PURE__ */ jsx("style", {
+        children: `
+      @keyframes expandHeight {
+        0% { height: 1vh; }
+        100% { height: 30vh; }
+      }
+      `
+      })]
+    }), /* @__PURE__ */ jsx("div", {
+      style: {
+        height: "50vh",
+        backgroundColor: "yellow"
+      },
+      children: "下"
+    })]
+  });
+});
+const route14 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
+  __proto__: null,
+  default: _11,
   meta
 }, Symbol.toStringTag, { value: "Module" }));
-const serverManifest = { "entry": { "module": "/react-cls/build/client/assets/entry.client-BmDBpHZU.js", "imports": ["/react-cls/build/client/assets/chunk-EPOLDU6W-Wp3N_t67.js"], "css": [] }, "routes": { "root": { "id": "root", "parentId": void 0, "path": "", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasClientMiddleware": false, "hasErrorBoundary": true, "module": "/react-cls/build/client/assets/root-B7nlBiQH.js", "imports": ["/react-cls/build/client/assets/chunk-EPOLDU6W-Wp3N_t67.js"], "css": ["/react-cls/build/client/assets/root-RLQRPQW-.css"], "clientActionModule": void 0, "clientLoaderModule": void 0, "clientMiddlewareModule": void 0, "hydrateFallbackModule": void 0 }, "routes/home": { "id": "routes/home", "parentId": "root", "path": void 0, "index": true, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasClientMiddleware": false, "hasErrorBoundary": false, "module": "/react-cls/build/client/assets/home-BojHJm8_.js", "imports": ["/react-cls/build/client/assets/chunk-EPOLDU6W-Wp3N_t67.js"], "css": [], "clientActionModule": void 0, "clientLoaderModule": void 0, "clientMiddlewareModule": void 0, "hydrateFallbackModule": void 0 }, "routes/1": { "id": "routes/1", "parentId": "root", "path": "1", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasClientMiddleware": false, "hasErrorBoundary": false, "module": "/react-cls/build/client/assets/1-D1LTn5Ks.js", "imports": ["/react-cls/build/client/assets/chunk-EPOLDU6W-Wp3N_t67.js"], "css": [], "clientActionModule": void 0, "clientLoaderModule": void 0, "clientMiddlewareModule": void 0, "hydrateFallbackModule": void 0 }, "routes/2": { "id": "routes/2", "parentId": "root", "path": "2", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasClientMiddleware": false, "hasErrorBoundary": false, "module": "/react-cls/build/client/assets/2-BEWG1wWU.js", "imports": ["/react-cls/build/client/assets/chunk-EPOLDU6W-Wp3N_t67.js"], "css": [], "clientActionModule": void 0, "clientLoaderModule": void 0, "clientMiddlewareModule": void 0, "hydrateFallbackModule": void 0 }, "routes/3": { "id": "routes/3", "parentId": "root", "path": "3", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasClientMiddleware": false, "hasErrorBoundary": false, "module": "/react-cls/build/client/assets/3-eoy3mxz5.js", "imports": ["/react-cls/build/client/assets/chunk-EPOLDU6W-Wp3N_t67.js"], "css": [], "clientActionModule": void 0, "clientLoaderModule": void 0, "clientMiddlewareModule": void 0, "hydrateFallbackModule": void 0 }, "routes/4": { "id": "routes/4", "parentId": "root", "path": "4", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasClientMiddleware": false, "hasErrorBoundary": false, "module": "/react-cls/build/client/assets/4-BLmQXF_s.js", "imports": ["/react-cls/build/client/assets/chunk-EPOLDU6W-Wp3N_t67.js"], "css": [], "clientActionModule": void 0, "clientLoaderModule": void 0, "clientMiddlewareModule": void 0, "hydrateFallbackModule": void 0 }, "routes/5": { "id": "routes/5", "parentId": "root", "path": "5", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasClientMiddleware": false, "hasErrorBoundary": false, "module": "/react-cls/build/client/assets/5-Mkerf_nG.js", "imports": ["/react-cls/build/client/assets/chunk-EPOLDU6W-Wp3N_t67.js"], "css": [], "clientActionModule": void 0, "clientLoaderModule": void 0, "clientMiddlewareModule": void 0, "hydrateFallbackModule": void 0 }, "routes/5-2": { "id": "routes/5-2", "parentId": "root", "path": "5-2", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasClientMiddleware": false, "hasErrorBoundary": false, "module": "/react-cls/build/client/assets/5-2-DSkc8qbE.js", "imports": ["/react-cls/build/client/assets/chunk-EPOLDU6W-Wp3N_t67.js"], "css": [], "clientActionModule": void 0, "clientLoaderModule": void 0, "clientMiddlewareModule": void 0, "hydrateFallbackModule": void 0 }, "routes/6": { "id": "routes/6", "parentId": "root", "path": "6", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasClientMiddleware": false, "hasErrorBoundary": false, "module": "/react-cls/build/client/assets/6-B1tpbmc5.js", "imports": ["/react-cls/build/client/assets/chunk-EPOLDU6W-Wp3N_t67.js"], "css": [], "clientActionModule": void 0, "clientLoaderModule": void 0, "clientMiddlewareModule": void 0, "hydrateFallbackModule": void 0 }, "routes/6-2": { "id": "routes/6-2", "parentId": "root", "path": "6-2", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasClientMiddleware": false, "hasErrorBoundary": false, "module": "/react-cls/build/client/assets/6-2-BHkaDjE_.js", "imports": ["/react-cls/build/client/assets/chunk-EPOLDU6W-Wp3N_t67.js"], "css": [], "clientActionModule": void 0, "clientLoaderModule": void 0, "clientMiddlewareModule": void 0, "hydrateFallbackModule": void 0 }, "routes/7": { "id": "routes/7", "parentId": "root", "path": "7", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasClientMiddleware": false, "hasErrorBoundary": false, "module": "/react-cls/build/client/assets/7-Co5xB5iU.js", "imports": ["/react-cls/build/client/assets/chunk-EPOLDU6W-Wp3N_t67.js"], "css": [], "clientActionModule": void 0, "clientLoaderModule": void 0, "clientMiddlewareModule": void 0, "hydrateFallbackModule": void 0 }, "routes/8": { "id": "routes/8", "parentId": "root", "path": "8", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasClientMiddleware": false, "hasErrorBoundary": false, "module": "/react-cls/build/client/assets/8-DYQybu8R.js", "imports": ["/react-cls/build/client/assets/chunk-EPOLDU6W-Wp3N_t67.js"], "css": [], "clientActionModule": void 0, "clientLoaderModule": void 0, "clientMiddlewareModule": void 0, "hydrateFallbackModule": void 0 }, "routes/9": { "id": "routes/9", "parentId": "root", "path": "9", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasClientMiddleware": false, "hasErrorBoundary": false, "module": "/react-cls/build/client/assets/9-Bxzz7kL7.js", "imports": ["/react-cls/build/client/assets/chunk-EPOLDU6W-Wp3N_t67.js"], "css": [], "clientActionModule": void 0, "clientLoaderModule": void 0, "clientMiddlewareModule": void 0, "hydrateFallbackModule": void 0 }, "routes/10": { "id": "routes/10", "parentId": "root", "path": "10", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasClientMiddleware": false, "hasErrorBoundary": false, "module": "/react-cls/build/client/assets/10-Dw1jgcjk.js", "imports": ["/react-cls/build/client/assets/chunk-EPOLDU6W-Wp3N_t67.js"], "css": [], "clientActionModule": void 0, "clientLoaderModule": void 0, "clientMiddlewareModule": void 0, "hydrateFallbackModule": void 0 } }, "url": "/react-cls/build/client/assets/manifest-0d79a6db.js", "version": "0d79a6db", "sri": void 0 };
+const serverManifest = { "entry": { "module": "/react-cls/build/client/assets/entry.client-BmDBpHZU.js", "imports": ["/react-cls/build/client/assets/chunk-EPOLDU6W-Wp3N_t67.js"], "css": [] }, "routes": { "root": { "id": "root", "parentId": void 0, "path": "", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasClientMiddleware": false, "hasErrorBoundary": true, "module": "/react-cls/build/client/assets/root-B7nlBiQH.js", "imports": ["/react-cls/build/client/assets/chunk-EPOLDU6W-Wp3N_t67.js"], "css": ["/react-cls/build/client/assets/root-RLQRPQW-.css"], "clientActionModule": void 0, "clientLoaderModule": void 0, "clientMiddlewareModule": void 0, "hydrateFallbackModule": void 0 }, "routes/home": { "id": "routes/home", "parentId": "root", "path": void 0, "index": true, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasClientMiddleware": false, "hasErrorBoundary": false, "module": "/react-cls/build/client/assets/home-BojHJm8_.js", "imports": ["/react-cls/build/client/assets/chunk-EPOLDU6W-Wp3N_t67.js"], "css": [], "clientActionModule": void 0, "clientLoaderModule": void 0, "clientMiddlewareModule": void 0, "hydrateFallbackModule": void 0 }, "routes/1": { "id": "routes/1", "parentId": "root", "path": "1", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasClientMiddleware": false, "hasErrorBoundary": false, "module": "/react-cls/build/client/assets/1-D1LTn5Ks.js", "imports": ["/react-cls/build/client/assets/chunk-EPOLDU6W-Wp3N_t67.js"], "css": [], "clientActionModule": void 0, "clientLoaderModule": void 0, "clientMiddlewareModule": void 0, "hydrateFallbackModule": void 0 }, "routes/2": { "id": "routes/2", "parentId": "root", "path": "2", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasClientMiddleware": false, "hasErrorBoundary": false, "module": "/react-cls/build/client/assets/2-BEWG1wWU.js", "imports": ["/react-cls/build/client/assets/chunk-EPOLDU6W-Wp3N_t67.js"], "css": [], "clientActionModule": void 0, "clientLoaderModule": void 0, "clientMiddlewareModule": void 0, "hydrateFallbackModule": void 0 }, "routes/3": { "id": "routes/3", "parentId": "root", "path": "3", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasClientMiddleware": false, "hasErrorBoundary": false, "module": "/react-cls/build/client/assets/3-eoy3mxz5.js", "imports": ["/react-cls/build/client/assets/chunk-EPOLDU6W-Wp3N_t67.js"], "css": [], "clientActionModule": void 0, "clientLoaderModule": void 0, "clientMiddlewareModule": void 0, "hydrateFallbackModule": void 0 }, "routes/4": { "id": "routes/4", "parentId": "root", "path": "4", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasClientMiddleware": false, "hasErrorBoundary": false, "module": "/react-cls/build/client/assets/4-BLmQXF_s.js", "imports": ["/react-cls/build/client/assets/chunk-EPOLDU6W-Wp3N_t67.js"], "css": [], "clientActionModule": void 0, "clientLoaderModule": void 0, "clientMiddlewareModule": void 0, "hydrateFallbackModule": void 0 }, "routes/5": { "id": "routes/5", "parentId": "root", "path": "5", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasClientMiddleware": false, "hasErrorBoundary": false, "module": "/react-cls/build/client/assets/5-Mkerf_nG.js", "imports": ["/react-cls/build/client/assets/chunk-EPOLDU6W-Wp3N_t67.js"], "css": [], "clientActionModule": void 0, "clientLoaderModule": void 0, "clientMiddlewareModule": void 0, "hydrateFallbackModule": void 0 }, "routes/5-2": { "id": "routes/5-2", "parentId": "root", "path": "5-2", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasClientMiddleware": false, "hasErrorBoundary": false, "module": "/react-cls/build/client/assets/5-2-DSkc8qbE.js", "imports": ["/react-cls/build/client/assets/chunk-EPOLDU6W-Wp3N_t67.js"], "css": [], "clientActionModule": void 0, "clientLoaderModule": void 0, "clientMiddlewareModule": void 0, "hydrateFallbackModule": void 0 }, "routes/6": { "id": "routes/6", "parentId": "root", "path": "6", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasClientMiddleware": false, "hasErrorBoundary": false, "module": "/react-cls/build/client/assets/6-B1tpbmc5.js", "imports": ["/react-cls/build/client/assets/chunk-EPOLDU6W-Wp3N_t67.js"], "css": [], "clientActionModule": void 0, "clientLoaderModule": void 0, "clientMiddlewareModule": void 0, "hydrateFallbackModule": void 0 }, "routes/6-2": { "id": "routes/6-2", "parentId": "root", "path": "6-2", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasClientMiddleware": false, "hasErrorBoundary": false, "module": "/react-cls/build/client/assets/6-2-BHkaDjE_.js", "imports": ["/react-cls/build/client/assets/chunk-EPOLDU6W-Wp3N_t67.js"], "css": [], "clientActionModule": void 0, "clientLoaderModule": void 0, "clientMiddlewareModule": void 0, "hydrateFallbackModule": void 0 }, "routes/7": { "id": "routes/7", "parentId": "root", "path": "7", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasClientMiddleware": false, "hasErrorBoundary": false, "module": "/react-cls/build/client/assets/7-Co5xB5iU.js", "imports": ["/react-cls/build/client/assets/chunk-EPOLDU6W-Wp3N_t67.js"], "css": [], "clientActionModule": void 0, "clientLoaderModule": void 0, "clientMiddlewareModule": void 0, "hydrateFallbackModule": void 0 }, "routes/8": { "id": "routes/8", "parentId": "root", "path": "8", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasClientMiddleware": false, "hasErrorBoundary": false, "module": "/react-cls/build/client/assets/8-DYQybu8R.js", "imports": ["/react-cls/build/client/assets/chunk-EPOLDU6W-Wp3N_t67.js"], "css": [], "clientActionModule": void 0, "clientLoaderModule": void 0, "clientMiddlewareModule": void 0, "hydrateFallbackModule": void 0 }, "routes/9": { "id": "routes/9", "parentId": "root", "path": "9", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasClientMiddleware": false, "hasErrorBoundary": false, "module": "/react-cls/build/client/assets/9-Bxzz7kL7.js", "imports": ["/react-cls/build/client/assets/chunk-EPOLDU6W-Wp3N_t67.js"], "css": [], "clientActionModule": void 0, "clientLoaderModule": void 0, "clientMiddlewareModule": void 0, "hydrateFallbackModule": void 0 }, "routes/10": { "id": "routes/10", "parentId": "root", "path": "10", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasClientMiddleware": false, "hasErrorBoundary": false, "module": "/react-cls/build/client/assets/10-Dw1jgcjk.js", "imports": ["/react-cls/build/client/assets/chunk-EPOLDU6W-Wp3N_t67.js"], "css": [], "clientActionModule": void 0, "clientLoaderModule": void 0, "clientMiddlewareModule": void 0, "hydrateFallbackModule": void 0 }, "routes/11": { "id": "routes/11", "parentId": "root", "path": "11", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasClientMiddleware": false, "hasErrorBoundary": false, "module": "/react-cls/build/client/assets/11-DPotBEen.js", "imports": ["/react-cls/build/client/assets/chunk-EPOLDU6W-Wp3N_t67.js"], "css": [], "clientActionModule": void 0, "clientLoaderModule": void 0, "clientMiddlewareModule": void 0, "hydrateFallbackModule": void 0 } }, "url": "/react-cls/build/client/assets/manifest-51f2ea33.js", "version": "51f2ea33", "sri": void 0 };
 const assetsBuildDirectory = "build/client";
 const basename = "/react-cls/build/client";
 const future = { "unstable_optimizeDeps": false, "unstable_subResourceIntegrity": false, "unstable_trailingSlashAwareDataRequests": false, "v8_middleware": false, "v8_splitRouteModules": false, "v8_viteEnvironmentApi": false };
 const ssr = true;
 const isSpaMode = false;
-const prerender = ["/", "/1", "/2", "/3", "/4", "/5", "/5-2", "/6", "/6-2", "/7", "/8", "/9", "/10"];
+const prerender = ["/", "/1", "/2", "/3", "/4", "/5", "/5-2", "/6", "/6-2", "/7", "/8", "/9", "/10", "/11"];
 const routeDiscovery = { "mode": "lazy", "manifestPath": "/__manifest" };
 const publicPath = "/react-cls/build/client/";
 const entry = { module: entryServer };
@@ -794,6 +835,14 @@ const routes = {
     index: void 0,
     caseSensitive: void 0,
     module: route13
+  },
+  "routes/11": {
+    id: "routes/11",
+    parentId: "root",
+    path: "11",
+    index: void 0,
+    caseSensitive: void 0,
+    module: route14
   }
 };
 const allowedActionOrigins = false;
